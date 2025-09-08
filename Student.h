@@ -27,6 +27,13 @@ public:
 	
 	void setLastName(string ln);
 	void printStudentInfo();
+
+	// Constructors 
+
+	// default constructor
+	Student();
+	//Student(string sid);
+	Student(string sid, string fn, string ln); 
 	
 };
 

@@ -38,3 +38,18 @@ void Student::printStudentInfo()
 	cout << getStudentID() << endl;
 
 }
+
+Student::Student()
+{
+	setStudentID("Not set yet");
+	setFirstName("Not set yet");
+	setLastName("Not set yet");
+}
+
+Student::Student(string sid, string fn, string ln)
+{
+	setStudentID(sid);
+	setFirstName(fn);
+	setLastName(ln);
+
+}
